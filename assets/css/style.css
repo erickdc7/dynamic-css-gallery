@@ -27,4 +27,15 @@ h1 {
   position: sticky;
   top: 0;
   left: 0;
+  animation: enhance-header linear both;
+  animation-timeline: scroll(root block);
+}
+
+@keyframes enhance-header {
+  to {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    font-size: 18px;
+    color: #000;
+  }
 }
