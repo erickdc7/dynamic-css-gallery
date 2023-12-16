@@ -17,3 +17,14 @@ section img {
   height: auto;
   margin-bottom: 32px;
 }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
