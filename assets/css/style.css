@@ -34,6 +34,16 @@ h1 {
   animation-range: 0 200px;
 }
 
+@keyframes reveal {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes enhance-header {
   to {
     background: rgba(255, 255, 255, 0.4);
